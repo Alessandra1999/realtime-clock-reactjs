@@ -1,8 +1,14 @@
-# React + Vite
+Exercício opcional proposto pelo professor Jaques durante o Módulo de ReactJS do curso de dev full stack da +PraTi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Exercício 4: Relógio em Tempo Real
 
-Currently, two official plugins are available:
+Objetivo: Criar um relógio digital que atualiza a hora a cada segundo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Instruções:
+
+    Crie um componente chamado RealTimeClock.
+    Utilize useState para armazenar a hora atual.
+    Utilize useEffect para configurar um intervalo que atualiza a hora a cada segundo.
+    Certifique-se de limpar o intervalo quando o componente for desmontado para evitar vazamentos de memória.
+    
+  Você pode conferir meu resultado através do link: https://alessandra1999.github.io/realtime-clock-reactjs/
